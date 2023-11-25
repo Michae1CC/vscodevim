@@ -111,6 +111,26 @@
             "commands": [
                 "editor.action.marker.prev"
             ]
+        },
+        // Read Change next. Jump to the next version control change
+        {
+            "before": [
+                "]",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.editor.nextChange"
+            ]
+        },
+        // Read Change previous. Jump to the next version control change
+        {
+            "before": [
+                "[",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.editor.previousChange"
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [
