@@ -122,7 +122,7 @@
                 "workbench.action.editor.nextChange"
             ]
         },
-        // Read Change previous. Jump to the next version control change
+        // Read Change previous. Jump to the previous version control change
         {
             "before": [
                 "[",
