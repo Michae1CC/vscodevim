@@ -1,6 +1,8 @@
 {
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "$HOME/.vscodevimrc",
+    // Vertically centres the cursor
+    "editor.cursorSurroundingLines": 999,
     // Vim bindings that are bound to vscode actions
     "vim.normalModeKeyBindingsNonRecursive": [
         {
